@@ -1,0 +1,29 @@
+# SymbolsHelper-Confirmed: 4:16.12.0 hppa x32
+libqmobipocket.so.2 libqmobipocket2 #MINVER#
+* Build-Depends-Package: libqmobipocket-dev
+ _ZN10Mobipocket11QFileStream4readEPci@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStream4seekEi@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStreamC1ERK7QString@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStreamC2ERK7QString@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStreamD0Ev@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStreamD1Ev@Base 4:16.12.0
+ _ZN10Mobipocket11QFileStreamD2Ev@Base 4:16.12.0
+ _ZN10Mobipocket6Stream4readEi@Base 4:16.12.0
+ _ZN10Mobipocket6Stream7readAllEv@Base 4:16.12.0
+ _ZN10Mobipocket8DocumentC1EPNS_6StreamE@Base 4:16.12.0
+ _ZN10Mobipocket8DocumentC2EPNS_6StreamE@Base 4:16.12.0
+ _ZN10Mobipocket8DocumentD1Ev@Base 4:16.12.0
+ _ZN10Mobipocket8DocumentD2Ev@Base 4:16.12.0
+ _ZNK10Mobipocket8Document10imageCountEv@Base 4:16.12.0
+ _ZNK10Mobipocket8Document4textEi@Base 4:16.12.0
+ _ZNK10Mobipocket8Document6hasDRMEv@Base 4:16.12.0
+ _ZNK10Mobipocket8Document7isValidEv@Base 4:16.12.0
+ _ZNK10Mobipocket8Document8getImageEi@Base 4:16.12.0
+ _ZNK10Mobipocket8Document8metadataEv@Base 4:16.12.0
+ _ZNK10Mobipocket8Document9thumbnailEv@Base 4:16.12.0
+ _ZTIN10Mobipocket11QFileStreamE@Base 4:16.12.0
+ _ZTIN10Mobipocket6StreamE@Base 4:16.12.0
+ _ZTSN10Mobipocket11QFileStreamE@Base 4:16.12.0
+ _ZTSN10Mobipocket6StreamE@Base 4:16.12.0
+ _ZTVN10Mobipocket11QFileStreamE@Base 4:16.12.0
+

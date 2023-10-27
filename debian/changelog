@@ -1,5 +1,770 @@
-template-repository (1.0-1) unstable; urgency=medium
+kdegraphics-mobipocket (4:22.12.3-1) unstable; urgency=medium
 
-  * Initial release
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.3).
+  * Update build-deps and deps with the info from cmake.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 01 Mar 2023 11:57:50 +0100
+
+kdegraphics-mobipocket (4:22.12.1-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.1).
+  * Bump Standards-Version to 4.6.2, no change required.
+  * Add Albert Astals Cid’s master key to upstream signing keys.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 06 Jan 2023 23:05:27 +0100
+
+kdegraphics-mobipocket (4:22.12.0-2) unstable; urgency=medium
+
+  * Upload with a correctly released changelog.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 16:04:37 +0100
+
+kdegraphics-mobipocket (4:22.12.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.6.1, no change required.
+  * Update the list of installed files from build logs.
+  * New upstream release (22.11.90).
+  * New upstream release (22.12.0).
+  * Drop kdegraphics-mobipocket binary package, it used to contain the
+    thumbnailer which has been moved to kdegraphics-thumbnailers.
+  * Refresh copyright information.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 00:12:54 +0100
+
+kdegraphics-mobipocket (4:21.12.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (21.12.3).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 06 Mar 2022 22:40:25 +0100
+
+kdegraphics-mobipocket (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:09:18 +0900
+
+kdegraphics-mobipocket (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 27 Apr 2021 23:34:40 +0900
+
+kdegraphics-mobipocket (4:20.12.0-1) unstable; urgency=medium
+
+  * New upstream release (20.12.0).
+  * Bump Standards-Version to 4.5.1, no change required.
+  * Refresh copyright information.
+  * Update project homepage.
+  * Bump debhelper compatibility level to 13.
+  * Build with hardening=+all build hardening flag.
+  * Borrow minimal upstream signing key from k3b.
+  * Refresh upstream metadata.
+  * Remove Eshat Cakar and Maximiliano Curia from the uploader, thanks for you
+    work on the package!
+  * Add myself to the uploaders.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 17 Dec 2020 13:22:05 +0100
+
+kdegraphics-mobipocket (4:20.04.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Switch Vcs-* fields to salsa.debian.org.
+  * Update watch file to the new release-service location.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5, and pkgkde_symbolshelper addons
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Add Rules-Requires-Root: no.
+  * Bump Standards-Version to 4.5.0, no changes required.
+  * Add the configuration for the CI on salsa.
+  * Update install files.
+  * Add Build-Depends-Package in symbols file.
+  * Remove empty line at the end of changelog.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 01 Aug 2020 16:54:08 +0200
+
+kdegraphics-mobipocket (4:17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.1.3, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 03 Jan 2018 12:30:02 +0100
+
+kdegraphics-mobipocket (4:17.08.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 4.1.2, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Bump versions in symbol file to 4:16.12.0 (basically round to the first
+    stable release).
+
+ -- Pino Toscano <pino@debian.org>  Sun, 10 Dec 2017 11:09:58 +0100
+
+kdegraphics-mobipocket (4:17.08.1-1) experimental; urgency=medium
+
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 22:41:18 +0200
+
+kdegraphics-mobipocket (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 13:59:40 +0000
+
+kdegraphics-mobipocket (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:34:35 +0000
+
+kdegraphics-mobipocket (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:20:15 +0000
+
+kdegraphics-mobipocket (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:21:14 +0000
+
+kdegraphics-mobipocket (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:15:04 +0000
+
+kdegraphics-mobipocket (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:03:44 +0000
+
+kdegraphics-mobipocket (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:47:31 +0000
+
+kdegraphics-mobipocket (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:57:43 +0000
+
+kdegraphics-mobipocket (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:16:55 +0000
+
+kdegraphics-mobipocket (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:25:41 +0000
+
+kdegraphics-mobipocket (4:16.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update symbols files.
+  * Remove support for Strigi, which is going to be removed soon:
+    - drop the libstreamanalyzer-dev and libstreams-dev build dependencies
+    - do not install the strigi analyzer anymore
+    - remove mention of Strigi in the description of kdegraphics-mobipocket
+    - remove kdegraphics-strigi-plugins breaks/replaces in
+      kdegraphics-mobipocket
+  * Update lintian overrides.
+  * Remove unused libqmobipocket1.acc file.
+  * Remove all the references to okular in the relationships of
+    kdegraphics-mobipocket, since it does not contain an okular plugin
+    anymore.
+  * Small touches to the descriptions.
+  * Remove the unused ${shlibs:Depends} from libqmobipocket-dev.
+  * Add the pkg-config build dependency.
+  * Tighten the libqmobipocket1 dependency in kdegraphics-mobipocket.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Aug 2016 18:25:59 +0200
+
+kdegraphics-mobipocket (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:03 +0200
+
+kdegraphics-mobipocket (4:15.12.3-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files with the logs from the buildds
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:57:07 +0200
+
+kdegraphics-mobipocket (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:10 +0100
+
+kdegraphics-mobipocket (4:14.12.2-2) unstable; urgency=medium
+
+  * Update symbols files for gcc5 compatibility. (Closes: #791741)
+    Thanks to Martin Michlmayr
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:11:04 +0200
+
+kdegraphics-mobipocket (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:03:07 +0100
+
+kdegraphics-mobipocket (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:14:03 -0800
+
+kdegraphics-mobipocket (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:57:39 +0100
+
+kdegraphics-mobipocket (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Dec 2014 10:22:02 -0800
+
+kdegraphics-mobipocket (4:14.11.95-0ubuntu1) vivid; urgency=medium
+
+  * Initial release for KDE applications 14.12 series
+   - Change maintainer to Debian/Kubuntu
+   - Fix Watch file applications locations
+   - Fix VCS for new kde-applications location
+  * Debian merge, no remaining changes.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 17:47:02 +0000
+
+kdegraphics-mobipocket (4:4.14.2-1) unstable; urgency=medium
+
+  * New upstream release (4.14.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 20 Oct 2014 17:13:22 +0200
+
+kdegraphics-mobipocket (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 13:41:19 -0700
+
+kdegraphics-mobipocket (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:43:01 +0200
+
+kdegraphics-mobipocket (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 12:44:01 +0200
+
+kdegraphics-mobipocket (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:29:26 +0200
+
+kdegraphics-mobipocket (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:00:00 +0200
+
+kdegraphics-mobipocket (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 22:57:05 +0200
+
+kdegraphics-mobipocket (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:51:05 +0100
+
+kdegraphics-mobipocket (4:4.13.0-0ubuntu2) utopic; urgency=medium
+
+  * Merge with Debian, no remaining changes
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 10 Jun 2014 18:00:04 +0200
+
+kdegraphics-mobipocket (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 21:47:01 +0100
+
+kdegraphics-mobipocket (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:17:35 +0200
+
+kdegraphics-mobipocket (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:05:43 +0100
+
+kdegraphics-mobipocket (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:45:55 +0000
+
+kdegraphics-mobipocket (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:39:51 +0100
+
+kdegraphics-mobipocket (4:4.12.2-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:37 +0200
+
+kdegraphics-mobipocket (4:4.12.2-1) experimental; urgency=medium
+
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Split package in libqmobipocket1, libqmobipocket-dev and
+    kdegraphics-mobipocket.
+  * Sync package with ubuntu version.
+  * Add abi-compliance-checker info.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:02 +0100
+
+kdegraphics-mobipocket (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:49:52 +0000
+
+kdegraphics-mobipocket (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:08:04 +0000
+
+kdegraphics-mobipocket (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 16:42:10 +0000
+
+kdegraphics-mobipocket (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 12:46:24 +0000
+
+kdegraphics-mobipocket (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 17:55:08 +0100
+
+kdegraphics-mobipocket (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add new packages for libqmobipocket
+  * Tidy up description of kdegraphics-mobipocket
+
+  [ Philip Muškovac ]
+  * Drop obsolete build-depend on okular-dev
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:35:12 +0100
+
+kdegraphics-mobipocket (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 12:38:15 +0100
+
+kdegraphics-mobipocket (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update build-dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 15:37:52 +0200
+
+kdegraphics-mobipocket (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:11:45 +0100
+
+kdegraphics-mobipocket (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:18:23 +0100
+
+kdegraphics-mobipocket (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:10:23 +0100
+
+kdegraphics-mobipocket (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:19:57 +0100
+
+kdegraphics-mobipocket (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:09 +0000
+
+kdegraphics-mobipocket (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:09:17 +0100
+
+kdegraphics-mobipocket (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 01:05:23 +0100
+
+kdegraphics-mobipocket (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 16:45:56 +0200
+
+kdegraphics-mobipocket (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 16:33:50 +0200
+
+kdegraphics-mobipocket (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:24:45 +0100
+
+kdegraphics-mobipocket (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 May 2013 11:04:33 +0000
+
+kdegraphics-mobipocket (4:4.10.2-2) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Fix description. (Closes: #706261)
+
+  [ Maximiliano Curia ]
+  * Add a watch file.
+  * Bump debhelper dependency and compat to 9.
+  * Update copyright file.
+  * Add myself to the uploaders list.
+  * Reshuffle build-deps to reduce resolver tries.
+  * Bump Standards-Version to 3.9.4, no further changes needed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 May 2013 23:22:46 +0200
+
+kdegraphics-mobipocket (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump build-deps.
+  * Update uploaders
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 18:52:03 +0000
+
+kdegraphics-mobipocket (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:43:52 +0200
+
+kdegraphics-mobipocket (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:31:10 +0000
+
+kdegraphics-mobipocket (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 11:46:07 +0000
+
+kdegraphics-mobipocket (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:24:40 +0000
+
+kdegraphics-mobipocket (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:30:50 +0100
+
+kdegraphics-mobipocket (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:25:03 +0000
+
+kdegraphics-mobipocket (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:47:36 +0000
+
+kdegraphics-mobipocket (4:4.9.80-0ubuntu2) raring; urgency=low
+
+  * No change rebuild against libokularcore2abi1.
+
+ -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Sun, 25 Nov 2012 02:21:03 +0000
+
+kdegraphics-mobipocket (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:53:31 +0000
+
+kdegraphics-mobipocket (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:31:16 +0100
+
+kdegraphics-mobipocket (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:22:00 +0100
+
+kdegraphics-mobipocket (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:21:17 +0530
+
+kdegraphics-mobipocket (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 17:36:59 +0100
+
+kdegraphics-mobipocket (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 22:15:01 +0200
+
+kdegraphics-mobipocket (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 16:07:51 +0100
+
+kdegraphics-mobipocket (4:4.8.4-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency to 4.8.4.
+  * Bump kdelibs5-dev and okular-dev build dependencies to 4.8.
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Convert copyright to copyright-format v1.0.
+  * Drop upstream_Add-TryExec-okular-to-okularApplication_mobi.desktop.patch,
+    it was backported from upstream.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 17 Jun 2012 17:03:06 +0200
+
+kdegraphics-mobipocket (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+    - Add libssl-dev to build-dep
+    - Bump Standard-Version to 3.9.3 (no change)
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Thu, 03 May 2012 10:42:51 +0200
+
+kdegraphics-mobipocket (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 03 Apr 2012 08:51:48 +0000
+
+kdegraphics-mobipocket (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:03:09 +0100
+
+kdegraphics-mobipocket (4:4.8.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 20 Jan 2012 12:10:36 +0000
+
+kdegraphics-mobipocket (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 05 Jan 2012 12:18:33 +0000
+
+kdegraphics-mobipocket (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 23:44:42 +0100
+
+kdegraphics-mobipocket (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Dec 2011 14:18:05 +0000
+
+kdegraphics-mobipocket (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 06 Mar 2012 23:23:44 +0100
+
+kdegraphics-mobipocket (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:35:53 +0100
+
+kdegraphics-mobipocket (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+  * Merge with Debian git, remaining change:
+   - set the correct gettext domain as source package
+     name != upstream tarball name
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 25 Nov 2011 22:07:51 +0000
+
+kdegraphics-mobipocket (4:4.7.2-1) experimental; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:42:30 -0300
+
+kdegraphics-mobipocket (4:4.7.2-0r1) raring; urgency=low
+
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 16 Nov 2011 14:56:16 +0100
+
+kdegraphics-mobipocket (4:4.7.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Nov 2011 19:53:16 +0100
+
+kdegraphics-mobipocket (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 23:31:23 +0200
+
+kdegraphics-mobipocket (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 09 Sep 2011 10:21:24 -0400
+
+kdegraphics-mobipocket (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream release
+
+  [ Felix Geyer ]
+  * Set KUBUNTU_DESKTOP_POT because package name != tarball name.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 28 Jul 2011 19:16:59 +0200
+
+kdegraphics-mobipocket (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  [ Harald Sitter ]
+  * Initial release (moved out of kdegraphics)
+  * Repack upstream source to include a copy of GPL
+  * Replace and break old packages (kdegraphics-strigi-plugins and okular)
+
+  [ Philip Muškovac ]
+  * Add kubuntu_mobi_desktop_use_tryexec.diff so TryExec is used to check
+    if okular is actually installed.
+  * kdegraphics-mobipocket Recommends/Enhances okular
+
+  [ Felix Geyer ]
+  * Rename package to kdegraphics-mobipocket.
+  * Add lintian override for desktop-command-not-in-package.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 16 Jul 2011 13:25:25 +0200

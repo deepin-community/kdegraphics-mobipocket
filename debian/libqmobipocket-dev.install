@@ -1,0 +1,3 @@
+usr/include/qmobipocket/*
+usr/lib/*/cmake/QMobipocket/*
+usr/lib/*/libqmobipocket.so
